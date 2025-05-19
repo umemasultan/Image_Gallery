@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filterable Image Gallery | Umema</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="bag">Bag</span>
+        <span class="item" data-name="shoe">Shoe</span>
+        <span class="item" data-name="watch">Watch</span>
+        <span class="item" data-name="camera">Camera</span>
+        <span class="item" data-name="headphone">Headphone</span>
+      </div>
+    </nav>
+
+    <div class="gallery-container">
+      <div class="gallery">
+        <div class="image" data-name="bag"><span><img src="bags.webp" alt=""></span></div>
+        <div class="image" data-name="headphone"><span><img src="pink watch.webp" alt=""></span></div>
+        <div class="image" data-name="shoe"><span><img src="girlshoes.jpeg" alt=""></span></div>
+        <div class="image" data-name="camera"><span><img src="headphone.jpg" alt=""></span></div>
+        <div class="image" data-name="shoe"><span><img src="camera.jpeg" alt=""></span></div>
+        <div class="image" data-name="headphone"><span><img src="sh.webp" alt=""></span></div>     
+        <div class="image" data-name="watch"><span><img src="watch.avif" alt=""></span></div>
+        <div class="image" data-name="camera"><span><img src="bb.jpg" alt=""></span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Preview Box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p>Not defined</p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box">
+      <img src="watch.avif" alt="">
+    </div>
+  </div>
+
+  <!-- Shadow Overlay -->
+  <div class="shadow" style="position: fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.4); display:none; z-index: 99;"></div>
+
+  <script src="script.js"></script>
+
+
+
+<footer style="text-align: center; margin-top: 50px; color: #555;">
+  <p>Developed by <strong>Umema Sultan</strong> | Task assigned by <strong>CodeAlpha</strong></p>
+</footer>
+
+</body>
+</html>
